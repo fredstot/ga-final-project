@@ -1,0 +1,570 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.login-container{
+  height: 100%;
+ 
+}
+.login-overlay{
+  display: flex;
+  background-color: grey;
+    opacity: 0.7;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container, .login-overlay{
+ 
+}
+}
+.popup{
+  position: absolute;
+
+}
+
+.menu {
+    display:none
+
+}
+
+.Stoths-Travel {
+  padding-left: 1.5%;
+  font-size: 40px;
+}
+.Home {
+    padding-right: 1%;
+    margin-right: 5%;
+    padding-left: 3%;
+    background-color: darkgreen;
+    border-style: none;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Full-Gallery {
+    padding-right: 3%;
+    margin-right: 5%;
+    padding-left: 3%;
+    font-size: 30px;
+    background-color: darkgreen;
+    border-style: none;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+
+.Hero{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url("E1F89235-A255-478A-A628-B8D6DFF945C6_4_5005_c.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-photo{
+    display: flex;
+    width: 3%;
+    
+   
+
+}
+.Summary{
+    display:flex;
+    background-color:lightgray;
+    opacity: .5;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40%;
+    margin-bottom: 3%;
+    width: 50%;
+    border-radius: 4%;
+    margin-left: 10px;
+
+
+}
+.Summary:hover{
+    opacity: 1.0
+}
+
+.Summary-title{
+margin-left: 5px;
+margin-top: 5px;
+font-size: larger;
+font-weight: bold;
+}
+.Archive-description{
+
+}
+
+.Locations{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: 18px;
+    
+}
+
+.Locations img{
+  width: 100%;
+  height: auto;
+}
+
+
+.botswana-container{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    height: 350px;
+    
+    
+
+}
+.botswana-container img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.botswana-overlay{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: lightgray; 
+  border-radius: 10%;
+  color: #fff; 
+  opacity: .7;
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+
+  
+}
+.botswana-overlay:hover {
+    opacity: 1.0;
+}
+.iceland-container{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    height: 350px;
+    
+
+}
+.iceland-container img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.iceland-overlay{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: lightgray; 
+  border-radius: 10%;
+  color: #fff; 
+  opacity: .7;
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+  
+}
+.iceland-overlay:hover {
+    opacity: 1.0;
+}
+.morzine-container{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    height: 350px;
+   
+
+}
+.morzine-container img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.morzine-overlay{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: lightgray; 
+  border-radius: 10%;
+  color: #fff; 
+  opacity: .7;
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+  
+}
+.morzine-overlay:hover {
+    opacity: 1.0;
+}
+.peru-container{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    height: 350px;
+    
+}
+.peru-container img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.peru-overlay{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: lightgray; 
+  border-radius: 10%;
+  color: #fff; 
+  opacity: .7;
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+  
+}
+.peru-overlay:hover {
+    opacity: 1.0;
+}
+.sri-lanka-container{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    height: 350px;
+    
+
+}
+.sri-lanka-container img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.sri-lanka-overlay{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: lightgray; 
+  border-radius: 10%;
+  color: #fff; 
+  opacity: .7;
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+  
+}
+.sri-lanka-overlay:hover {
+    opacity: 1.0;
+}
+.tanzania-container{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    height: 350px;
+    
+}
+.tanzania-container img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.tanzania-overlay{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: lightgray; 
+  border-radius: 10%;
+  color: #fff; 
+  opacity: .7;
+  padding: 10px 20px; 
+  font-size: 40px; 
+  text-align: center;
+  
+}
+
+.tanzania-overlay:hover {
+    opacity: 1.0;
+}
+
+
+/* Dropdown menu */
+
+.btn{
+  background-color:  #ededed;
+  border: none;
+  padding: 10px 0;
+  font-size: 22px;
+  color: black;
+}
+.btn:hover{
+  background-color: lightgrey;
+  color: darkgreen;
+}
+/* Burger menu */
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: darkgreen;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#burger-menu
+{
+  position: absolute;
+  width: 70%;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+ 
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#burger-menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#burger-menu:hover{
+    color:aqua
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+@media (min-width:768px){
+#menuToggle{
+        display: none;
+    }
+ .menu{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content:start;
+    padding-bottom: 2%;
+    color: black;
+    background-color: darkgreen;
+    align-items: center;
+    padding-top: 2%;
+ } 
+ ul{
+    display: flex;
+ }  
+ .btn{
+  padding-right: 3%;
+  margin-right: 20%;
+  padding-left: 3%;
+  background-color: darkgreen;
+  border-style: none;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 22px
+ }
+ .Locations{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+ .botswana-container{
+  width:45%
+ }
+ .morzine-container{
+  width:45%
+}
+.tanzania-container{
+  width:45%
+}
+.iceland-container{
+  width:45%
+}
+.sri-lanka-container{
+  width:45%
+}
+.peru-container{
+  width:45%
+}
+.Summary-title{
+  font-size: xx-large;
+}
+
+
+@media (min-width:1024px){
+  .Home{
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .Full-Gallery{
+    margin-right: 120px;
+  }
+  .botswana-container{
+    width:30%
+   }
+   .morzine-container{
+    width:30%
+  }
+  .tanzania-container{
+    width:30%
+  }
+  .iceland-container{
+    width:30%
+  }
+  .sri-lanka-container{
+    width:30%
+  }
+  .peru-container{
+    width: 30%
+  }
+  .Locations{
+    
+  }
+}
+
+@media (min-width: 1350px){
+  .Home{
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .Full-Gallery{
+    margin-right: 200px;
+  }
+}
+
+
+
+
+/* Ideas:
+- Password screen
+- Welcome screen
+- sub pages- photo carousel of different local locations
+
+
