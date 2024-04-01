@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+  background-color: beige;
+}
+/* Login container */
 .login-container{
   height: 100%;
  
@@ -21,15 +25,16 @@
     display: flex;
     flex-direction: column;
 }
+.login-title{
+  margin-bottom: 100px;
+}
 
-.login-container, .login-overlay{
- 
-}
-}
 .popup{
   position: absolute;
 
 }
+
+/* Nav menu */
 
 .menu {
     display:none
@@ -44,7 +49,7 @@
     padding-right: 1%;
     margin-right: 5%;
     padding-left: 3%;
-    background-color: darkgreen;
+    background-color: burlywood;
     border-style: none;
     padding-top: 20px;
     font-weight: bold;
@@ -56,19 +61,20 @@
     margin-right: 5%;
     padding-left: 3%;
     font-size: 30px;
-    background-color: darkgreen;
+    background-color: burlywood;
     border-style: none;
     padding-top: 20px;
     font-weight: bold;
     
 }
 
+/* Hero */
 
 .Hero{
     display: flex;
     width: 100%;
     height: auto;
-    background-image: url("E1F89235-A255-478A-A628-B8D6DFF945C6_4_5005_c.jpeg");
+    background-image: url("images/E1F89235-A255-478A-A628-B8D6DFF945C6_4_5005_c.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -106,6 +112,8 @@ font-weight: bold;
 .Archive-description{
 
 }
+
+/* image containers */
 
 .Locations{
     display: flex;
@@ -329,7 +337,7 @@ font-weight: bold;
 }
 .btn:hover{
   background-color: lightgrey;
-  color: darkgreen;
+  color: burlywood;;
 }
 /* Burger menu */
 #menuToggle
@@ -355,7 +363,7 @@ font-weight: bold;
 
 #menuToggle a:hover
 {
-  color: darkgreen;
+  color: burlywood;;
 }
 
 
@@ -461,6 +469,8 @@ font-weight: bold;
   transform: none;
 }
 
+/* Ipad */
+
 @media (min-width:768px){
 #menuToggle{
         display: none;
@@ -472,7 +482,7 @@ font-weight: bold;
     justify-content:start;
     padding-bottom: 2%;
     color: black;
-    background-color: darkgreen;
+    background-color:burlywood;
     align-items: center;
     padding-top: 2%;
  } 
@@ -483,7 +493,7 @@ font-weight: bold;
   padding-right: 3%;
   margin-right: 20%;
   padding-left: 3%;
-  background-color: darkgreen;
+  background-color: burlywood;
   border-style: none;
   padding-top: 10px;
   font-weight: bold;
@@ -517,6 +527,7 @@ font-weight: bold;
   font-size: xx-large;
 }
 
+/* computer */
 
 @media (min-width:1024px){
   .Home{
@@ -559,12 +570,13 @@ font-weight: bold;
   }
 }
 
-
+.pop-up-dissapear{
+  display:none;
+}
 
 
 /* Ideas:
-- Password screen
 - Welcome screen
-- sub pages- photo carousel of different local locations
+
 
 
