@@ -47,7 +47,7 @@ body{
     color: burlywood;;
   }
   .btn{
-    background-color:  #ededed;
+    background-color: burlywood;
     border: none;
     padding: 10px 0;
     font-size: 22px;
@@ -55,7 +55,12 @@ body{
   }
   .btn:hover{
     background-color: lightgrey;
-    color: burlywood;;
+    color: black;
+  }
+  .dropdown-menu.show {
+    display: block;
+    background-color: burlywood;
+    font-size: 30px;
   }
 
   #menuToggle
@@ -161,7 +166,7 @@ body{
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background:burlywood;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
  

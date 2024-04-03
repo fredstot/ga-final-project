@@ -11,29 +11,40 @@ body{
 
 }
 .Stoths-Travel {
-    padding-left: 1.5%;
+    padding: 10px 0;
+    margin-left: 1.5%;
     font-size: 40px;
   }
   .Home {
-      padding-right: 1%;
-      margin-right: 5%;
-      padding-left: 3%;
+      margin-top: 20px;
+      margin-right: 6%;
+      margin-left: 3%;
+      padding: 10px 0;
       background-color: burlywood;
       border-style: none;
-      padding-top: 20px;
       font-weight: bold;
       font-size: 30px;
   }
+  .Home:hover{
+    background-color: lightgrey;
+    color: burlywood;;
+  }
   
   .Full-Gallery {
-      padding-right: 3%;
-      margin-right: 5%;
-      padding-left: 3%;
+      
+      margin-right: 8%;
+      margin-left: 3%;
+      margin-top: 20px;
+      padding: 10px 0;
       font-size: 30px;
       background-color: burlywood;
       border-style: none;
-      padding-top: 20px;
+      
       font-weight: bold;    
+  }
+  .Full-Gallery:hover{
+    background-color: lightgrey;
+    color: burlywood;;
   }
   .btn{
     background-color: burlywood;
@@ -45,11 +56,6 @@ body{
   .btn:hover{
     background-color: lightgrey;
     color: black;
-  }
-  .dropdown-menu.show {
-    display: block;
-    background-color: burlywood;
-    font-size: 30px;
   }
 
   #menuToggle
@@ -75,7 +81,7 @@ body{
 
 #menuToggle a:hover
 {
-  color:burlywood;
+  color: burlywood;;
 }
 
 
@@ -155,7 +161,7 @@ body{
   padding: 50px;
   padding-top: 125px;
   
-  background: burlywood;;
+  background: burlywood;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
  
@@ -180,74 +186,76 @@ body{
 {
   transform: none;
 }
-.carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10%;
-  }
-  
-  h5{
-    font-size: 50px;
-  }
-  header{
-    display: flex;
-    font-size: 40px;
-    align-items: center;
-    justify-content: center;
-    margin: 10%;
-    border-bottom-width: thick;
-    border-color: black;
-    border-bottom-style: solid;
-    width: 80%;
-  }
-@media (min-width:768px){
-#menuToggle{
-        display: none;
-    }
- .menu{
-    display:flex;
-    flex-direction:row;
-    text-align:center;
-    justify-content:start;
-    padding-bottom: 2%;
-    color: black;
-    background-color:burlywood;
-    align-items: center;
-    padding-top: 2%;
- } 
- ul{
-    display: flex;
- }  
- .btn{
-  padding-right: 3%;
-  margin-right: 20%;
-  padding-left: 3%;
-  background-color: burlywood;
-  border-style: none;
-  padding-top: 10px;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 22px
- }
-}
-@media (min-width:1024px){
-    .Home{
-      margin-right: 120px;
-      margin-left: 120px;
-    }
-    .Full-Gallery{
-      margin-right: 120px;
-    }
-}
-@media (min-width: 1350px){
-    .Home{
-      margin-right: 200px;
-      margin-left: 200px;
-    }
-    .Full-Gallery{
-      margin-right: 200px;
-    }
-  }
 
-  
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    flex-direction: column;
+}
+.page-title{
+    font-size: 70px;
+}
+.popup-content{
+    font-size: 30px;
+    margin: 60px;
+}
+
+@media (min-width:768px){
+    #menuToggle{
+            display: none;
+        }
+     .menu{
+        display:flex;
+        flex-direction:row;
+        text-align:center;
+        justify-content:start;
+        padding-bottom: 2%;
+        color: black;
+        background-color:burlywood;
+        align-items: center;
+        padding-top: 2%;
+     } 
+     ul{
+        display: flex;
+     }  
+     .btn{
+      padding-right: 3%;
+      margin-right: 20%;
+      padding-left: 3%;
+      background-color: burlywood;
+      border-style: none;
+      padding-top: 10px;
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 22px
+     }
+     .page-title{
+        font-size: 100px;
+    }
+    .popup-content{
+        font-size: 50px;
+    }
+    }
+
+    @media (min-width:1024px){
+        .Home{
+          margin-right: 120px;
+          margin-left: 120px;
+        }
+        .Full-Gallery{
+          margin-right: 120px;
+        }
+    }
+    @media (min-width: 1350px){
+        .Home{
+          margin-right: 200px;
+          margin-left: 200px;
+        }
+        .Full-Gallery{
+          margin-right: 200px;
+        }
+      }
+    
+      
