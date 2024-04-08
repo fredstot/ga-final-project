@@ -149,6 +149,7 @@ font-weight: bold;
   border-color: black;
   border-bottom-style: solid;
   width: 80%;
+  margin-left: 40px;
 }
 
 /* image containers */
@@ -601,6 +602,19 @@ footer{
 }
 .Summary-title{
   font-size: xx-large;
+}
+.Select-Gallery{
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  border-bottom-width: thick;
+  border-color: black;
+  border-bottom-style: solid;
+  width: 80%;
+  margin-left: 0px;
+}
 }
 
 /* computer */
