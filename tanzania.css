@@ -11,40 +11,39 @@ body{
 
 }
 .Stoths-Travel {
-    padding: 10px 0;
-    margin-left: 1.5%;
-    font-size: 40px;
+  padding-left: 1.5%;
+  font-size: 40px;
+  font-family: American Typewriter, serif;
   }
   .Home {
-      margin-top: 20px;
-      margin-right: 6%;
-      margin-left: 3%;
-      padding: 10px 0;
-      background-color: burlywood;
-      border-style: none;
-      font-weight: bold;
-      font-size: 30px;
+    background-color: burlywood;
+    border-style: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5%;
+    font-family: American Typewriter, serif;
   }
   .Home:hover{
     background-color: lightgrey;
-    color: burlywood;;
+    color: black;;
   }
   
   .Full-Gallery {
       
-      margin-right: 8%;
-      margin-left: 3%;
-      margin-top: 20px;
-      padding: 10px 0;
-      font-size: 30px;
-      background-color: burlywood;
-      border-style: none;
-      
-      font-weight: bold;    
+    font-size: 30px;
+    background-color: burlywood;
+    border-style: none;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5%;
+    font-family: American Typewriter, serif;   
   }
   .Full-Gallery:hover{
     background-color: lightgrey;
-    color: burlywood;;
+    color: black;;
   }
   .btn{
     background-color: burlywood;
@@ -52,6 +51,7 @@ body{
     padding: 10px 0;
     font-size: 22px;
     color: black;
+    font-family: American Typewriter, serif;
   }
   .btn:hover{
     background-color: lightgrey;
@@ -74,6 +74,7 @@ body{
   
   -webkit-user-select: none;
   user-select: none;
+  margin-bottom: 80px;
 }
 
 #menuToggle a
@@ -116,7 +117,7 @@ body{
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
   
   z-index: 1;
@@ -197,7 +198,10 @@ body{
     align-items: center;
     margin: 10%;
   }
-  
+  .carousel-inner{
+    border-width: 5px;
+    border-style: solid;
+  }
   h5{
     font-size: 50px;
   }
@@ -226,7 +230,7 @@ body{
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
-
+  margin: 5%;
 }
 .Tarangire_gallery__item--1 {
   grid-column-start: 1;
@@ -270,7 +274,7 @@ body{
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
-
+  margin: 5%;
 }
 .Crater_gallery__item--1 {
   grid-column-start: 1;
@@ -315,7 +319,7 @@ body{
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: repeat(8, 5vw);
       grid-gap: 15px;
-  
+      margin: 5%;
   }
 
 .Serengeti_gallery__item--1 {
@@ -354,21 +358,45 @@ body{
   grid-row-start: 6;
   grid-row-end: 9;
 }
-
+.tnpg1{
+  display: none;
+}
+.tgi1click{
+  display: flex;
+  background-color: grey;
+    opacity: 0.7;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+footer{
+  background-color: burlywood;
+  padding: 5%;
+  margin-top: 5%;
+  border-top-width: 5px;
+    border-style: solid;
+}
 @media (min-width:768px){
 #menuToggle{
         display: none;
     }
  .menu{
-    display:flex;
-    flex-direction:row;
-    text-align:center;
-    justify-content:start;
-    padding-bottom: 2%;
-    color: black;
-    background-color:burlywood;
-    align-items: center;
-    padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: start;
+  padding-bottom: 2%;
+  color: black;
+  background-color: burlywood;
+  align-items: center;
+  padding-top: 2%;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+  border-style: solid;
  } 
  ul{
     display: flex;

@@ -27,6 +27,7 @@ body{
 }
 .login-title{
   margin-bottom: 100px;
+  opacity: 1;
 }
 
 .popup{
@@ -44,36 +45,38 @@ body{
 .Stoths-Travel {
   padding-left: 1.5%;
   font-size: 40px;
+  font-family: American Typewriter, serif;
 }
 .Home {
-    padding-right: 1%;
     margin-right: 5%;
-    padding-left: 3%;
     background-color: burlywood;
     border-style: none;
-    padding-top: 20px;
     font-weight: bold;
     font-size: 30px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5%;
+    font-family: American Typewriter, serif;
 }
 .Home:hover{
   background-color: lightgrey;
-  color: burlywood;;
+  color: black;;
 }
 
 .Full-Gallery {
-    padding-right: 3%;
     margin-right: 5%;
-    padding-left: 3%;
     font-size: 30px;
     background-color: burlywood;
     border-style: none;
-    padding-top: 20px;
     font-weight: bold;
-    
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5%;
+    font-family: American Typewriter, serif;
 }
 .Full-Gallery:hover{
   background-color: lightgrey;
-  color: burlywood;;
+  color: black;
 }
 .btn{
   background-color:  #ededed;
@@ -81,6 +84,7 @@ body{
   padding: 10px 0;
   font-size: 22px;
   color: black;
+  font-family: American Typewriter, serif;
 }
 .btn:hover{
   background-color: lightgrey;
@@ -90,12 +94,16 @@ body{
 /* Hero */
 
 .Hero{
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-image: url("images/E1F89235-A255-478A-A628-B8D6DFF945C6_4_5005_c.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  background-image: url(images/E1F89235-A255-478A-A628-B8D6DFF945C6_4_5005_c.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5%;
+  border-width: 5px;
+    border-style: solid;
 }
 .background-photo{
     display: flex;
@@ -131,6 +139,17 @@ font-weight: bold;
 .Archive-description{
 
 }
+.Select-Gallery{
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  border-bottom-width: thick;
+  border-color: black;
+  border-bottom-style: solid;
+  width: 80%;
+}
 
 /* image containers */
 
@@ -139,7 +158,6 @@ font-weight: bold;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding-top: 3%;
     font-size: 18px;
     
 }
@@ -164,6 +182,9 @@ font-weight: bold;
     width: 100%;
     height: 100%;
     border-radius: 10%;
+    border-width: 10px;
+    border: black;
+    border-style: solid;
     
 }
 .botswana-overlay{
@@ -171,13 +192,14 @@ font-weight: bold;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: lightgray; 
+  background-color: beige; 
   border-radius: 10%;
-  color: #fff; 
+  color: black; 
   opacity: .7;
   padding: 10px 20px; 
   font-size: 40px; 
   text-align: center;
+  font-family: American Typewriter, serif;
 
   
 }
@@ -197,6 +219,9 @@ font-weight: bold;
     width: 100%;
     height: 100%;
     border-radius: 10%;
+    border-width: 10px;
+    border: black;
+    border-style: solid;
     
 }
 .iceland-overlay{
@@ -204,14 +229,14 @@ font-weight: bold;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: lightgray; 
+  background-color: beige; 
   border-radius: 10%;
-  color: #fff; 
+  color: black; 
   opacity: .7;
   padding: 10px 20px; 
   font-size: 40px; 
   text-align: center;
-  
+  font-family: American Typewriter, serif;
 }
 .iceland-overlay:hover {
     opacity: 1.0;
@@ -229,6 +254,9 @@ font-weight: bold;
     width: 100%;
     height: 100%;
     border-radius: 10%;
+    border-width: 10px;
+    border: black;
+    border-style: solid;
     
 }
 .morzine-overlay{
@@ -236,14 +264,14 @@ font-weight: bold;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: lightgray; 
+  background-color: beige; 
   border-radius: 10%;
-  color: #fff; 
+  color: black; 
   opacity: .7;
   padding: 10px 20px; 
   font-size: 40px; 
   text-align: center;
-  
+  font-family: American Typewriter, serif;
 }
 .morzine-overlay:hover {
     opacity: 1.0;
@@ -260,6 +288,9 @@ font-weight: bold;
     width: 100%;
     height: 100%;
     border-radius: 10%;
+    border-width: 10px;
+    border: black;
+    border-style: solid;
     
 }
 .peru-overlay{
@@ -267,14 +298,14 @@ font-weight: bold;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: lightgray; 
+  background-color: beige; 
   border-radius: 10%;
-  color: #fff; 
+  color: black; 
   opacity: .7;
   padding: 10px 20px; 
   font-size: 40px; 
   text-align: center;
-  
+  font-family: American Typewriter, serif;
 }
 .peru-overlay:hover {
     opacity: 1.0;
@@ -292,6 +323,9 @@ font-weight: bold;
     width: 100%;
     height: 100%;
     border-radius: 10%;
+    border-width: 10px;
+    border: black;
+    border-style: solid;
     
 }
 .sri-lanka-overlay{
@@ -299,14 +333,14 @@ font-weight: bold;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: lightgray; 
+  background-color: beige; 
   border-radius: 10%;
-  color: #fff; 
+  color: black; 
   opacity: .7;
   padding: 10px 20px; 
   font-size: 40px; 
   text-align: center;
-  
+  font-family: American Typewriter, serif;
 }
 .sri-lanka-overlay:hover {
     opacity: 1.0;
@@ -323,6 +357,9 @@ font-weight: bold;
     width: 100%;
     height: 100%;
     border-radius: 10%;
+    border-width: 10px;
+    border: black;
+    border-style: solid;
     
 }
 .tanzania-overlay{
@@ -330,14 +367,14 @@ font-weight: bold;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: lightgray; 
+  background-color: beige; 
   border-radius: 10%;
-  color: #fff; 
+  color: black; 
   opacity: .7;
   padding: 10px 20px; 
   font-size: 40px; 
   text-align: center;
-  
+  font-family: American Typewriter, serif;
 }
 
 .tanzania-overlay:hover {
@@ -378,6 +415,7 @@ font-weight: bold;
   
   -webkit-user-select: none;
   user-select: none;
+  margin-bottom: 80px;
 }
 
 #menuToggle a
@@ -420,7 +458,7 @@ font-weight: bold;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
   
   z-index: 1;
@@ -496,6 +534,14 @@ font-weight: bold;
   transform: none;
 }
 
+/*Footer*/
+footer{
+  background-color: burlywood;
+  padding: 5%;
+  margin-top: 5%;
+  border-top-width: 5px;
+    border-style: solid;
+}
 /* Ipad */
 
 @media (min-width:768px){
@@ -503,15 +549,18 @@ font-weight: bold;
         display: none;
     }
  .menu{
-    display:flex;
-    flex-direction:row;
-    text-align:center;
-    justify-content:start;
-    padding-bottom: 2%;
-    color: black;
-    background-color:burlywood;
-    align-items: center;
-    padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: start;
+  padding-bottom: 2%;
+  color: black;
+  background-color: burlywood;
+  align-items: center;
+  padding-top: 2%;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+  border-style: solid;
  } 
  ul{
     display: flex;
